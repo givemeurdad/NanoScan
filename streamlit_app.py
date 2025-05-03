@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 st.title('NanoScan')
 
-st.info('This is a app that uses machine learning!')
+st.info('This software allows you to get a basic screening for any disorders')
 
 with st.expander('Data'):
   st.write('**Raw data**')
