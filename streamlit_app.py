@@ -11,7 +11,7 @@ with st.expander('Data'):
   df
 
   st.write('**X**')
-  X = dr.drop('species', axis=1)
+  X = df.drop('species', axis=1)
   X
 
   st.write('**X**')
