@@ -87,9 +87,10 @@ prediction_proba = clf.predict_proba(input_row)
 
 df_prediction_proba = pd.DataFrame(prediction_proba)
 df_prediction_proba.columns = ['Adelie', 'Chinstrap', 'Gentoo']
-# df_prediction_proba
 
 #Display predicted species
 st.subheader('Predicted Species')
+df_prediction_proba 
+
 penguins_species = np.array(['Adelie', 'Chinstrap', 'Gentoo'])
 st.success(str(penguins_species[prediction][0]))
