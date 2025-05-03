@@ -1,6 +1,6 @@
-# 🤖 Machine Learning App
+# NanoScreen
 
-This is a machine learning app
+This software allows you to get a basic screening for any disorders
 
 ## Demo App
 
