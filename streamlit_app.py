@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 
 st.title('🤖 Machine Learning App')
 
