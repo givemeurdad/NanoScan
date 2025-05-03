@@ -1,4 +1,4 @@
-# NanoScreen
+# NanoScan
 
 This software allows you to get a basic screening for any disorders
 
