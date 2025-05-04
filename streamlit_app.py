@@ -6,7 +6,6 @@ from sklearn.ensemble import RandomForestClassifier
 st.title('NanoScan')
 
 st.info('This software allows you to get a basic screening for any disorders')
-st.image("file:///Users/tejasbhavsar/Downloads/shutterstock_275950052-760x475@2x.jpg")
 
 with st.expander('Data'):
   st.write('**Raw data**')
