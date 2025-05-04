@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
-st.title('NanoScan')
+st.title('NanoScan', divider='blue')
 
 st.info('This software allows you to get a basic screening for any disorders')
 
