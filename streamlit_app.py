@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from PIL import Image
 
 st.title('NanoScan')
-image = Image.open('NanoScan.jpg')
+image = Image.open('NanoScan.jpg', caption = NanoScan, width = 400, channels = "RGB")
 st.image(image)
 
 st.info('This software allows you to get a basic screening for any disorders')
