@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
+from PIL import Image
 
 st.title('NanoScan')
 image = Image.open('shutterstock_275950052-760x475@2x.jpg')
