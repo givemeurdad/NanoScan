@@ -4,6 +4,8 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
 st.title('NanoScan')
+image = Image.open('shutterstock_275950052-760x475@2x.jpg')
+st.image(image)
 
 st.info('This software allows you to get a basic screening for any disorders')
 
